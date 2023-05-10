@@ -9,3 +9,10 @@ test('Do we have a kiwi?', () => {
     expect(fruits).toContain('kiwi');
 });
 
+test('Greater than', () => {
+    expect(10).toBeGreaterThan(9);
+});
+
+test('True', () => {
+    expect(true).toBeTruthy();
+})
