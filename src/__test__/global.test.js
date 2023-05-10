@@ -15,4 +15,16 @@ test('Greater than', () => {
 
 test('True', () => {
     expect(true).toBeTruthy();
-})
+});
+
+// Reverse strings function
+const reverseString = (str, callback) => {
+    callback(str.split('').reverse().join(''))
+};
+
+// Test callbacks
+test('Try a callback', () => {
+    reverseString('Hello', str => {
+        expect(str).toBe('olleH');
+    });
+});
