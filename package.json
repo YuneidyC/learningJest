@@ -1,22 +1,22 @@
 {
-  "name": "learningjest",
-  "version": "1.0.0",
-  "description": "Unit testing with Jest in React",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YuneidyC/learningJest.git"
-  },
-  "author": "YuneidyC",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YuneidyC/learningJest/issues"
-  },
-  "homepage": "https://github.com/YuneidyC/learningJest#readme",
-  "devDependencies": {
-    "jest": "^29.5.0"
-  }
+    "name": "learningjest",
+    "version": "1.0.0",
+    "description": "Unit testing with Jest in React",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YuneidyC/learningJest.git"
+    },
+    "author": "YuneidyC",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/YuneidyC/learningJest/issues"
+    },
+    "homepage": "https://github.com/YuneidyC/learningJest#readme",
+    "devDependencies": {
+        "jest": "^29.5.0"
+    }
 }
