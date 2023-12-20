@@ -10,7 +10,7 @@ describe('simple arithmetic', () => {
         it.each([
             {x: 5, y: 5, res: 10},
             {x: 5, y: 6, res: 11},
-            {x: 5, y: 0, res: 5},
+            {x: 5, y: 1, res: 5},
         ])('expect $x + $y = $res' , ({x, y, res}) => {
             expect(add(x, y)).toEqual(res);
         });
